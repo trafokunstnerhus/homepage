@@ -1,7 +1,11 @@
-Website for Trafo kunstnerhus in Oslo
-## Trafo Kunstnerhus' official website. 
-TRAFO kunstnerhus is Oslo’s largest artist studio complex
-[trafokunstnerhus.no](https://trafokunstnerhus.no)
+## Trafo Kunstnerhus' official website
+TRAFO kunstnerhus is Oslo’s largest artist studio complex.
+
+
+This repository contains the website for Trafo kunstnerhus.
+
+
+Visit [trafokunstnerhus.no](https://trafokunstnerhus.no) to read more about us.
 
 
 
