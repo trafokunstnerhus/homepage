@@ -1,121 +1,124 @@
 liste:
   - atelier: 1004
-    navn: 
-    web: 
+    navn: null
+    web: null
   - atelier: 1005
-    navn: 
-    web: 
+    navn: null
+    web: null
   - atelier: 1006
-    navn: 
-    web: 
+    navn: null
+    web: null
   - atelier: 1007
-    navn: 
-    web: 
+    navn: null
+    web: null
   - atelier: 1010
-    navn: 
-    web: 
+    navn: null
+    web: null
   - atelier: 1011
-    navn: 
-    web: 
+    navn: null
+    web: null
   - atelier: 1012
-    navn: 
-    web: 
+    navn: null
+    web: null
   - atelier: 1013
-    navn: 
-    web: 
+    navn: null
+    web: null
   - atelier: 1014
-    navn: 
-    web: 
+    navn: null
+    web: null
   - atelier: 1015
-    navn: 
-    web: 
+    navn: null
+    web: null
   - atelier: 1016
-    navn: 
-    web: 
+    navn: null
+    web: null
   - atelier: 1017
-    navn: 
-    web: 
+    navn: Sara Christensen
+    web: null
   - atelier: 1018
-    navn: 
-    web: 
+    navn: jeannette christensen
+    web: null
   - atelier: 1020
     navn: Kristoffer Myskja
     web: kristoffermyskja.com
+    tlf: +47 97654255
+    epost: post@kristoffermyskja.com
+    social: []
   - atelier: 2005
-    navn:
-    web: 
+    navn: null
+    web: null
   - atelier: 2009
-    navn: 
-    web: 
+    navn: null
+    web: null
   - atelier: 2010
-    navn: 
-    web: 
+    navn: null
+    web: null
   - atelier: 2011
-    navn: 
-    web: 
+    navn: null
+    web: null
   - atelier: 2019
-    navn: 
-    web: 
+    navn: null
+    web: null
   - atelier: 2020
-    navn: 
-    web: 
+    navn: null
+    web: null
   - atelier: 2021
-    navn: 
-    web: 
+    navn: null
+    web: null
   - atelier: 2022
-    navn: 
-    web: 
+    navn: null
+    web: null
   - atelier: 2023
-    navn: 
-    web: 
+    navn: null
+    web: null
   - atelier: 2024
-    navn: 
-    web: 
+    navn: null
+    web: null
   - atelier: 2025
-    navn: 
-    web: 
+    navn: null
+    web: null
   - atelier: 2035
-    navn: 
-    web: 
+    navn: null
+    web: null
   - atelier: 3023
-    navn: 
-    web: 
+    navn: null
+    web: null
   - atelier: 4007
-    navn: 
-    web: 
+    navn: null
+    web: null
   - atelier: 4008
-    navn: 
-    web: 
+    navn: null
+    web: null
   - atelier: 4013
-    navn: 
-    web: 
+    navn: null
+    web: null
   - atelier: 4014
-    navn: 
-    web: 
+    navn: null
+    web: null
   - atelier: 4015
-    navn: 
-    web: 
+    navn: null
+    web: null
   - atelier: 4016
-    navn:
-    web: 
+    navn: null
+    web: null
   - atelier: 4017
-    navn:
-    web: 
+    navn: null
+    web: null
   - atelier: 4018
-    navn: 
-    web: 
+    navn: null
+    web: null
   - atelier: 4021
     navn: Øystein Wyller Odden
     web: wyllerodden.com
   - atelier: 4022
-    navn: 
-    web: 
+    navn: null
+    web: null
   - atelier: 5006
-    navn: 
-    web: 
+    navn: null
+    web: null
   - atelier: 5007
-    navn: 
-    web: 
+    navn: null
+    web: null
   - atelier: 5008
-    navn: 
-    web: 
+    navn: null
+    web: null
