@@ -15,10 +15,9 @@ i18n:
 # locale: 'nb'
 # when using the default proxy server port
 
-local_backend: true
+#local_backend: true
 
 backend:
-  #site_domain: cms.netlify.com
   name: git-gateway
   branch: main
 
