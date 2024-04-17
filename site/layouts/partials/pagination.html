@@ -1,0 +1,18 @@
+{{ if gt .Paginator.TotalPages 1 }}
+ 
+<nav class="cf pa3">
+    {{ if .Paginator.HasNext }}
+    <a class="fl dib link dim black f6 f5-ns b pa2" title="{{ T "neste_side" }}" href="{{ .Paginator.Next.URL }}">
+        &larr; {{  T "forrige_side" }}
+    </a>
+    {{ end }}
+    <div class="pagination">
+        {{ if .Paginator.HasPrev }}
+        <a class="fl dib link dim black f6 f5-ns b pa2" title="{{ T "forrige_side" }}" href="{{ .Paginator.Prev.URL }}">
+            {{ T "neste_side" }} &rarr;
+        </a>
+        {{ end }}
+    </div>
+</nav>
+ 
+{{ end }}

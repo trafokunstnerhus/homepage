@@ -1,0 +1,20 @@
+{{ $url := .web }}
+{{ if not (or (strings.HasPrefix $url "http://") (strings.HasPrefix $url "https://")) }}
+	{{ $url = printf "https://%s" $url }}
+{{ end }}
+	<blockquote class="bg-grey-1 primary pa3 mb3 br1 b mw6 center">
+		<p class="f4 mb0">{{ strings.Title .navn }}</p>
+		<p class="black normal">{{T "atelier"}}: {{ .atelier }}<br>
+			{{ if .epost }}{{ markdownify .epost }}<br>{{ end }}
+			{{ if .tlf }}<a href="tel:{{ .tlf }}">{{ .tlf }}</a><br>{{ end }}
+			{{ if .web }}<a href="{{ $url }}"> {{ .web }} </a>{{ end }}</p>
+			{{ if .social }}
+			{{ range .social }}
+				{{ $link := .link }}
+				{{ if not (or (strings.HasPrefix $link "http://") (strings.HasPrefix $link "https://")) }}
+				{{ $link = printf "https://%s" $link }}
+				{{ end }}
+				<a href="{{ $link  | safeURL}}" rel="external">{{ partial "svg" .type }}</a> {{ end }}
+			{{ end }}</p>
+	</blockquote>
+

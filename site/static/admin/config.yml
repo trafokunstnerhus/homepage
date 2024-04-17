@@ -1,0 +1,272 @@
+i18n:
+  # Required and can be one of multiple_folders, multiple_files or single_file
+  # multiple_folders - persists files in `<folder>/<locale>/<slug>.<extension>`
+  # multiple_files - persists files in `<folder>/<slug>.<locale>.<extension>`
+  # single_file - persists a single file in `<folder>/<slug>.<extension>`
+  structure: multiple_files
+
+  # Required - a list of locales to show in the editor UI
+  locales: [nb, en]
+
+  # Optional, defaults to the first item in locales.
+  # The locale to be used for fields validation and as a baseline for the entry.
+  default_locale: nb
+
+# locale: 'nb'
+# when using the default proxy server port
+
+local_backend: true
+
+backend:
+  #site_domain: cms.netlify.com
+  name: git-gateway
+  branch: main
+
+media_folder: "site/assets/img/" #"site/static/img" # Folder where user uploaded files should go
+public_folder: "img"
+
+collections: # A list of collections the CMS should be able to edit
+  # - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
+  #   label: "Post" # Used in the UI, ie.: "New Post"
+  #   folder: "site/content/post" # The path to the folder where the documents are stored
+  #   create: true # Allow users to create new documents in this collection
+  #   fields: # The fields each document in this collection have
+  #     - {label: "Title", name: "title", widget: "string"}
+  #     - {label: "Publish Date", name: "date", widget: "datetime"}
+  #     - {label: "Intro Blurb", name: "description", widget: "markdown"}
+  #     - {label: "Image", name: "image", widget: "image", required: false}
+  #     - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "hjem"
+    folder: "site/content/"
+    label: "Forside"
+    create: false
+    delete: false
+    i18n: true
+    fields:
+      - { label: Title, name: title, widget: string, i18n: true }
+      - { label: Subtitle, name: subtitle, widget: string, i18n: true }
+      - { label: Image, name: image, widget: image, i18n: duplicate }
+      - {
+          label: ArtistLinkTex,
+          name: artistLinkText,
+          widget: string,
+          i18n: true,
+        }
+      - {
+          label: "Blurb",
+          name: blurb,
+          widget: object,
+          i18n: true,
+          fields:
+            [
+              {
+                label: "Heading",
+                name: "heading",
+                widget: string,
+                i18n: true,
+              },
+              { label: "Text", name: "text", widget: "text", i18n: true },
+            ],
+        }
+      - {
+          label: "Intro",
+          name: intro,
+          widget: object,
+          i18n: true,
+          fields:
+            [
+              {
+                label: "Heading",
+                name: "heading",
+                widget: string,
+                required: false,
+                i18n: true,
+              },
+              { label: "Text", name: "text", widget: markdown, i18n: true },
+            ],
+        }
+      - {
+          label: "Profil",
+          name: profil,
+          widget: object,
+          i18n: true,
+
+          fields:
+            [
+              { label: "Heading", name: "heading", widget: string, i18n: true },
+              { label: "Text", name: "text", widget: "markdown", i18n: true },
+              {
+                label: "Link Text",
+                name: "linkText",
+                widget: "string",
+                i18n: true,
+              },
+              {
+                label: Images,
+                name: images,
+                i18n: true,
+                widget: object,
+                fields:
+                  [
+                    {
+                      label: Image,
+                      name: image1,
+                      widget: image,
+                      i18n: duplicate,
+                    },
+                    {
+                      label: Image,
+                      name: image2,
+                      widget: image,
+                      i18n: duplicate,
+                    },
+                  ],
+              },
+            ],
+        }
+  - name: "kunstnere"
+    folder: "site/content/kunstnere"
+    label: "Kunstnere"
+    create: false
+    delete: false
+    i18n: true
+    fields:
+      - { label: Title, name: title, widget: string, i18n: true }
+      - { label: Image, name: image, widget: image, i18n: duplicate }    
+      - label: "Intro"
+        name: intro
+        i18n: true
+        widget: object
+        fields: [
+          { label: "Heading",name: "heading", widget: string, required: false, i18n: true },
+          { label: "Text", name: "description", widget: markdown, i18n: true }]
+      - label: "Blurbs"
+        name: blurbs
+        widget: list
+        i18n: true
+        fields:
+        - { label: "Text", name: "text", widget: string, i18n: true}
+        - { label: "Image", name: "image", widget: "image", i18n: duplicate }
+      - label: "Main"
+        name: "main"
+        i18n: true
+        widget: object
+        fields: [
+         { label: "Overskrift", name: "heading", widget: string, i18n: true },
+         { label: "Beskrivelse", name: "description", widget: string, i18n: true, required: false }]
+          
+
+  - name: "kunstnerliste"
+    label: "Kunstnerliste"
+    files:
+      - file: "site/data/kunstnere.yaml"
+        label: Liste
+        name: liste
+        editor:
+          preview: false
+        fields:
+          - name: liste
+            widget: list
+            add_to_top: true
+            collapsed: true
+            summary: "{{fields.atelier}} {{fields.navn}}"
+            fields:
+            - { label: Atelier, name: atelier, widget: number, value_type: int, min: 1000, max: 5999 }
+            - { label: Navn, name: navn, widget: string }
+            - { label: Web, name: web, widget: string, required: false }
+            - { label: Tlf, name: tlf, widget: string, required: false }
+            - { label: Epost, name: epost, widget: string, required: false }
+            - name: social
+              label: Sosiale medier
+              widget: list
+              fields:
+              - { label: Type, name: type, widget: string }
+              - { label: Lenke, name: link, widget: string }
+
+        
+  - name: "historie"
+    folder: "site/content/historie/"
+    label: "Historie"
+    create: false
+    delete: false
+    i18n: true
+    collapsed: false
+    fields:
+      - { label: Title, name: title, widget: string, i18n: true }
+      #- { label: Subtitle, name: subtitle, widget: string, i18n: true }
+      - { label: Image, name: image, widget: image, i18n: duplicate }
+      - label: "Values"
+        name: values
+        widget: list
+        i18n: true
+        fields:
+          - { label: "Overskrift", name: "heading", widget: string, i18n: true }
+          - { label: "Text", name: "text", widget: markdown, i18n: true }
+          - { label: Image, name: imageUrl, widget: image, i18n: duplicate }
+        
+
+        #         - {label: Image, name: imageUrl, widget: image}
+  - name: "kontakt"
+    label: "Kontakt"
+    folder: "site/content/kontakt/"
+    create: false
+    delete: false
+    i18n: true
+    fields:
+    - {label: "Tittel", name: "title", widget: "string", i18n: true}
+    - label: "Kontakter"
+      name: "contact_entries"
+      i18n: true
+      widget: "list"
+      fields:
+        - {label: "Heading", name: "heading", widget: "string", i18n: true}
+        - {label: "Text", name: "text", widget: "markdown", i18n: true}
+  - name: "leietakerforeningen"
+    label: "Leietakerforeningen"
+    folder: "site/content/leietakerforeningen/"
+    create: false
+    delete: false
+    i18n: true
+    fields:
+    - {label: "Tittel", name: "title", widget: "string", i18n: true}
+    - label: "Blokker"
+      name: "entries"
+      i18n: true
+      widget: "list"
+      fields:
+        - {label: "Heading", name: "heading", widget: "string", i18n: true}
+        - {label: "Text", name: "text", widget: "markdown", i18n: true}
+
+      
+
+  - name: "site_settings"
+    label: "Innstillinger"
+    files:
+      - file: "site/data/footer.json"
+        label: Footer
+        name: footer
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Blurb, name: blurb, widget: text }
+      - file: "site/config.yaml"
+        label: Hugo Config
+        name: config
+        editor:
+          preview: false
+        fields:
+          - { label: Site Title for Browser Tab, name: title, widget: string }
+          - label: Params
+            name: params
+            widget: object
+            fields:
+              # - label: Image
+              #   name: images
+              #   widget: string
+              - label: Antall atelier i bygget
+                name: antallAtelier
+                widget: string
+              - label: Epost for å kontakte styret
+                name: styreMail
+                widget: string
+                #field: { label: Image, name: image, widget: image }

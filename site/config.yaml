@@ -1,0 +1,23 @@
+baseurl: /
+title: TRAFO kunstnerhus
+defaultContentLanguage: nb
+languages:
+  nb:
+    languageName: Norsk
+    weight: 1
+  en:
+    languageName: English
+    weight: 2
+disableKinds:
+  - RSS
+  - taxonomy
+  - taxonomyTerm
+params:
+  images: img/
+  antallAtelier: "32"
+  styreMail: styreleder@example.com
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+      safehtml: true

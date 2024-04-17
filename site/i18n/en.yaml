@@ -1,0 +1,39 @@
+#nav
+trafo: Trafo
+historie: History
+kunstnere: Artists
+kontakt: Contact
+
+read_more: Read more
+
+floor1: Ground floor
+floor2: 1st floor
+floor3: 2nd floor
+floor4: 3rd floor
+floor5: 4th floor
+
+atelier: Studio
+
+leietakerforeningen: Tenant Association
+
+e_404: Site not found...
+e_404_back: Back to the front page
+
+next: Next
+next_page: Next page
+prev: Previous
+prev_page: Previous page
+
+day:
+  one: day
+  other: days
+day_with_count:
+  one: '{{ . }} day'
+  other: '{{ . }} days'
+  
+minutes:
+  one: minute
+  other: minutes
+minutes_with_count:
+  one: '{{ . }} minute'
+  other: '{{ . }} minutes'

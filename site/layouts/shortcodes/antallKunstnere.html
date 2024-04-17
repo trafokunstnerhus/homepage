@@ -1,0 +1,5 @@
+{{- $count := 0 -}}
+{{- range $.Site.Data.kunstnere.liste -}}
+ {{- $count = $count | add 1 -}}
+{{- end -}}
+{{- $count -}}

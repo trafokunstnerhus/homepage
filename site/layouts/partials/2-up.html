@@ -1,0 +1,20 @@
+<div class="bg-off-white pv4">
+  <div class="ph3 mw7 center">
+    <h2 class="f2 b lh-title mb2">{{.intro.heading}}</h2>
+    <p class="mb4 mw6">{{.intro.text  | markdownify}}</p>
+
+    <div class="flex-ns mhn2-ns mb3">
+      {{ range .events }}
+      <div class="ph2-ns w-50-ns">
+        <img src="{{.image}}" alt="" class="center db mb3" style="width: 240px;">
+        <p>{{.text | safeHTML}}</p>
+      </div>
+      {{ end }}
+    </div>
+
+    <div class="tc">
+      <a href="{{relLangURL "/kunstnere"}}" class="btn raise">{{ .artistLinkText }}</a>
+      <a href="{{relLangURL "/leietakerforeningen"}}" class="btn raise">{{T "leietakerforeningen"}}</a>
+    </div>
+  </div>
+</div>

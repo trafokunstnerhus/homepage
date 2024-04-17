@@ -1,0 +1,7 @@
+{{ $link := "" }}
+{{ with resources.GetMatch .imageUrl }}
+  {{ with .Fill $.args }}
+    {{ $link = .RelPermalink }}
+  {{ end }}
+{{ end }}
+{{ return $link }}

@@ -1,0 +1,15 @@
+{{- with $.Get 0 }}
+  {{- with $i := $.Page.Resources.Get . }}
+    {{- with $spec := $.Get 1 }}
+      {{- with $i.Process . }}
+       {{ .RelPermalink }}
+      {{- end }}
+    {{- else }}
+      {{- errorf "The %q shortcode requires a positional parameter (1) containing the image processing specification. See %s" $.Name $.Position }}
+    {{- end }}
+  {{- else }}
+    {{- errorf "The %q shortcode was unable to find %q. See %s" $.Name . $.Position }}
+  {{- end }}
+{{- else }}
+  {{- errorf "The %q shortcode requires a positional parameter (0) indicating the image path, relative to the current page. See %s" $.Name $.Position }}
+{{- end }}

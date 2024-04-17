@@ -1,0 +1,39 @@
+#nav
+trafo: Trafo
+historie: Historie
+kunstnere: Kunstnere
+kontakt: Kontakt
+
+read_more: Les videre
+
+floor1: 1. etasje
+floor2: 2. etasje
+floor3: 3. etasje
+floor4: 4. etasje
+floor5: 5. etasje
+
+atelier: Atelier
+
+leietakerforeningen: Leietakerforeningen
+
+e_404: Beklager, siden finnes ikke...
+e_404_back: Gå til start
+
+next: Neste
+next_page: Neste side
+prev: Forrige
+prev_page: Forrige side
+
+day:
+  one: dag
+  other: dager
+day_with_count:
+  one: '{{ . }} dag'
+  other: '{{ . }} dager'
+  
+minutes:
+  one: minutt
+  other: minutter
+minutes_with_count:
+  one: '{{ . }} minutt'
+  other: '{{ . }} minutter'

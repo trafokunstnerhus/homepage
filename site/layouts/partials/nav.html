@@ -1,0 +1,31 @@
+<nav data-nav class="flex justify-between items-center center bg-white divider-grey relative">
+
+	<!-- Logo -->
+	<a href="/" class="pa3 db mr4 h-100 w3 flex-none">
+		<img src="/img/logo/logo.svg" alt="TRAFO logo" class="br0 db mb0 w-100"/>
+	</a>
+
+	<!-- Primary Nav -->
+	<div data-mobile-menu class="mobile-menu-container">
+		<svg viewBox="0 0 100 80" width="40" height="25" class="mobile-menu-icon">
+			<rect class="menu-icon-top mobile-menu-inner" width="100" height="8"></rect>
+			<rect class="menu-icon-middle mobile-menu-inner" y="30" width="100" height="8"></rect>
+			<rect class="menu-icon-bottom mobile-menu-inner" y="60" width="100" height="8"></rect>
+		</svg>
+	</div>
+
+	<ul class="flex b grey-3 nav-menu">
+		<li><a href="{{ relLangURL "" }}" class="pa3 no-underline db">{{ T "trafo" }}</a></li>
+
+		<li><a href="{{ relLangURL "kunstnere" }}" class="pa3 no-underline db">{{ T "kunstnere" }}</a></li>
+
+		<li><a href="{{ relLangURL "historie" }}" class="pa3 no-underline db">{{ T "historie" }}</a></li>
+
+		<li><a href="{{ relLangURL "kontakt" }}" class="pa3 no-underline db">{{ T "kontakt" }}</a></li>
+	</ul>
+		<ul>
+			{{ range .Translations }}
+			<li><a href="{{ .RelPermalink }}" hreflang="{{ $.Lang }}" class="pa1 no-underline f6-m">{{ .Language.LanguageName }}</a></li>
+			{{ end }}
+		</ul>
+</nav>

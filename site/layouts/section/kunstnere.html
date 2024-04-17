@@ -1,0 +1,152 @@
+{{ define "main" }}
+
+{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
+
+{{ partial "4-up" .Params.intro }}
+
+
+{{ with .Params.main }}
+<div class="mw7 center">
+  <div class="mw7 ph3 mb3">
+    <h2 class="f2 b lh-title mb2">{{ .heading }}</h2>
+    <p>{{ .description }}</p>
+  </div>
+</div>
+<!-- Full-width image -->
+<img src="{{ .Params.full_image }}" alt="" class="db w-100">
+{{ end }}
+
+<style>
+  .tekststil {
+    font-family: 'serif';
+    font-size: 4.93889px;
+    line-height: 1.25;
+    stroke-width: 0.264583;
+  }
+
+  .felles {
+    fill: var(--highlight);
+  }
+
+  .gulv {
+    fill: var(--white);
+  }
+
+  .inngang {
+    fill: none;
+    stroke: var(--primary);
+    stroke-dasharray: none;
+    stroke-linecap: butt;
+    stroke-linejoin: miter;
+    stroke-opacity: 1;
+  }
+
+  .sticky {
+    position: sticky;
+    position: -webkit-sticky;
+    /* Safari */
+    top: 0;
+    font-size: 0;
+  }
+
+  #svg1 {
+    display: block;
+    height: auto;
+  }
+</style>
+
+<div class="mw7 center" id="1etg">
+  <div class="mw7 ph3 mb3">
+    <h3 class="f3 b lh-title mb2">{{ T "floor1" }}</h3>
+  </div>
+  <div class="flex-l mhn2-l">
+    <div class="w-60-l ph2-l">
+      {{ range sort $.Site.Data.kunstnere.liste "atelier" "asc" }}
+      {{ if lt .atelier 2000 }}
+      {{ partial "kunstnerlist" . }}
+      {{ end }} {{ end }}
+    </div>
+    <div class="w-40-l ph2-l">
+      <div class="sticky bg-grey-1 pa3 mb3 br1 b mw6 center ">{{ partial "svg_etg" "etg1" }}</div>
+    </div>
+  </div>
+</div>
+
+
+<div class="mw7 center" id="2etg">
+  <div class="mw7 ph3 mb3">
+    <h3 class="f3 b lh-title mb2">{{ T "floor2" }}</h3>
+  </div>
+  <div class="flex-l mhn2-l">
+    <div class="w-60-l ph2-l">
+      {{ range sort $.Site.Data.kunstnere.liste "atelier" "asc" }}
+      {{ if and (lt .atelier 3000) (ge .atelier 2000)}}
+      {{ partial "kunstnerlist" . }}
+      {{ end }} {{ end }}
+    </div>
+    <div class="w-40-l ph2-l">
+      <div class="sticky bg-grey-1 pa3 mb3 br1 b mw6 center ">
+        {{ partial "svg_etg" "etg2" }}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="mw7 center" id="3etg">
+  <div class="mw7 ph3 mb3">
+    <h3 class="f3 b lh-title mb2">{{ T "floor3" }}</h3>
+  </div>
+  <div class="flex-l mhn2-l">
+    <div class="w-60-l ph2-l">
+      {{ range sort $.Site.Data.kunstnere.liste "atelier" "asc" }}
+      {{ if and (lt .atelier 4000) (ge .atelier 3000)}}
+      {{ partial "kunstnerlist" . }}
+      {{ end }} {{ end }}
+    </div>
+    <div class="w-40-l ph2-l">
+      <div class="sticky bg-grey-1 pa3 mb3 br1 b mw6 center ">
+        {{ partial "svg_etg" "etg3" }}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="mw7 center" id="4etg">
+  <div class="mw7 ph3 mb3">
+    <h3 class="f3 b lh-title mb2">{{ T "floor4" }}</h3>
+  </div>
+  <div class="flex-l mhn2-l">
+    <div class="w-60-l ph2-l">
+      {{ range sort $.Site.Data.kunstnere.liste "atelier" "asc" }}
+      {{ if and (lt .atelier 5000) (ge .atelier 4000)}}
+      {{ partial "kunstnerlist" . }}
+      {{ end }} {{ end }}
+    </div>
+    <div class="w-40-l ph2-l">
+      <div class="sticky bg-grey-1 pa3 mb3 br1 b mw6 center ">
+        {{ partial "svg_etg" "etg4" }}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="mw7 center" id="5etg">
+  <div class="mw7 ph3 mb3">
+    <h3 class="f3 b lh-title mb2">{{ T "floor5" }}</h3>
+  </div>
+  <div class="flex-l mhn2-l">
+    <div class="w-60-l ph2-l">
+      {{ range sort $.Site.Data.kunstnere.liste "atelier" "asc" }}
+      {{ if and (lt .atelier 6000) (ge .atelier 5000)}}
+      {{ partial "kunstnerlist" . }}
+      {{ end }} {{ end }}
+    </div>
+    <div class="w-40-l ph2-l">
+      <div class="sticky bg-grey-1 pa3 mb3 br1 b mw6 center ">
+        {{ partial "svg_etg" "etg5" }}
+      </div>
+    </div>
+  </div>
+</div>
+
+{{ end }}
