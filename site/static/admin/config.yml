@@ -172,7 +172,7 @@ collections: # A list of collections the CMS should be able to edit
             summary: "{{fields.atelier}} {{fields.navn}}"
             fields:
             - { label: Atelier, name: atelier, widget: number, value_type: int, min: 1000, max: 5999 }
-            - { label: Navn, name: navn, widget: string }
+            - { label: Navn, name: navn, widget: string, required: false }
             - { label: Web, name: web, widget: string, required: false }
             - { label: Tlf, name: tlf, widget: string, required: false }
             - { label: Epost, name: epost, widget: string, required: false }
