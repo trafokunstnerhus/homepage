@@ -7,11 +7,21 @@ liste:
       - link: https://instagram.com/christinapeel/
         type: instagram
   - atelier: 1004
-    navn: null
-    web: null
+    navn: Marit Følstad
+    web: https://folstad.net
+    tlf: +47 962 31 615
+    epost: maritfolstad@hotmail.com
+    social:
+      - link: https://www.instagram.com/maritfoelstad/
+        type: instagram
+      - type: instagram
+        link: https://www.instagram.com/twotwentytwotemporaryno/
+      - type: facebook
+        link: https://www.facebook.com/twotwentytwotemporary/
   - atelier: 1005
-    navn: null
-    web: null
+    navn: Else Marie Hagen
+    web: gallerik.com/artists/else-marie-hagen
+    epost: elsemha@online.no
   - atelier: 1006
     navn: null
     web: null
@@ -27,7 +37,7 @@ liste:
   - atelier: 1012
     navn: Terje Roalkvam
     web: terjeroalkvam.blogspot.com
-    tlf: +47 99469237
+    tlf: +47 994 69 237
     epost: terjroa@online.no
     social:
       - link: https://instagram.com/terjeroalkvam/
@@ -51,6 +61,9 @@ liste:
     web: camillalow.com
     tlf: ""
     epost: camillalow@gmail.com
+    social:
+      - type: instagram
+        link: https://instagram.com/camilla_camilla_studio_low
   - atelier: 1017
     navn: Sara Korshøj Christensen
     web: sarachristensen.net/
@@ -64,7 +77,7 @@ liste:
   - atelier: 1020
     navn: Kristoffer Myskja
     web: kristoffermyskja.com
-    tlf: +47 97654255
+    tlf: +47 976 54 255
     epost: post@kristoffermyskja.com
     social: []
   - atelier: 2005
@@ -109,7 +122,7 @@ liste:
   - atelier: 4007
     navn: Lotte Konow Lund
     web: null
-    tlf: +47 95757493
+    tlf: +47 957 57 493
     epost: lottekonowlund@gmail.com
   - atelier: 4008
     navn: null
@@ -126,7 +139,7 @@ liste:
   - atelier: 4016
     navn: Terje Nicolaisen
     web: terjenicolaisen.com
-    tlf: "+4792041070"
+    tlf: +47 920 41 070
     epost: terjenicolaisen@gmail.com
     social:
       - link: https://youtube.com/@terjenicolaisen
