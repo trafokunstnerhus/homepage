@@ -14,8 +14,8 @@ disableKinds:
   - taxonomyTerm
 params:
   images: img/
-  antallAtelier: "32"
-  styreMail: styreleder@example.com
+  antallAtelier: "41"
+  styreMail: styret@trafokunstnerhus.no
 markup:
   goldmark:
     renderer:
