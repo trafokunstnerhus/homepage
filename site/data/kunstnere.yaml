@@ -1,10 +1,10 @@
 liste:
   - atelier: 1001
     navn: Christina Peel
-    web: www.christinapeel.com
+    web: christinapeel.com
     epost: christinapeel@gmail.com
     social:
-      - link: https://www.instagram.com/christinapeel/
+      - link: https://instagram.com/christinapeel/
         type: instagram
   - atelier: 1004
     navn: null
@@ -26,19 +26,19 @@ liste:
     web: null
   - atelier: 1012
     navn: Terje Roalkvam
-    web: www.terjeroalkvam.blogspot.com
+    web: terjeroalkvam.blogspot.com
     tlf: +47 99469237
     epost: terjroa@online.no
     social:
-      - link: https://www.instagram.com/terjeroalkvam/
+      - link: https://instagram.com/terjeroalkvam/
         type: instagram
       - type: facebook
-        link: https://www.facebook.com/terje.roalkvam.54/
+        link: https://facebook.com/terje.roalkvam.54/
   - atelier: 1013
     navn: Eirik Senje
     web: eiriksenje.no
     social:
-      - link: https://www.instagram.com/eiriksenje/
+      - link: https://instagram.com/eiriksenje/
         type: instagram
   - atelier: 1014
     navn: null
@@ -48,15 +48,16 @@ liste:
     web: null
   - atelier: 1016
     navn: Camilla Løw
-    web: www.camillalow.com
-    tlf: camillalow@gmail.com
+    web: camillalow.com
+    tlf: ""
+    epost: camillalow@gmail.com
   - atelier: 1017
     navn: Sara Korshøj Christensen
-    web: https://www.sarachristensen.net/
+    web: sarachristensen.net/
     epost: sara.kors@gmail.com
     social:
       - type: instagram
-        link: https://www.instagram.com/sara_christensen
+        link: https://instagram.com/sara_christensen
   - atelier: 1018
     navn: jeannette christensen
     web: null
