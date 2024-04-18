@@ -96,7 +96,7 @@ liste:
     web: null
   - atelier: 2024
     navn: Mattias Härenstam
-    web: http://www.mattiasharenstam.com
+    web: mattiasharenstam.com
   - atelier: 2025
     navn: null
     web: null
@@ -129,7 +129,7 @@ liste:
     tlf: "+4792041070"
     epost: terjenicolaisen@gmail.com
     social:
-      - link: https://www.youtube.com/@terjenicolaisen
+      - link: https://youtube.com/@terjenicolaisen
         type: youtube
   - atelier: 4017
     navn: null
