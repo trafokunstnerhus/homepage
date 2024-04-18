@@ -1,4 +1,11 @@
 liste:
+  - atelier: 1001
+    navn: Christina Peel
+    web: www.christinapeel.com
+    epost: christinapeel@gmail.com
+    social:
+      - link: https://www.instagram.com/christinapeel/
+        type: instagram
   - atelier: 1004
     navn: null
     web: null
@@ -18,11 +25,21 @@ liste:
     navn: null
     web: null
   - atelier: 1012
-    navn: null
-    web: null
+    navn: Terje Roalkvam
+    web: www.terjeroalkvam.blogspot.com
+    tlf: +47 99469237
+    epost: terjroa@online.no
+    social:
+      - link: https://www.instagram.com/terjeroalkvam/
+        type: instagram
+      - type: facebook
+        link: https://www.facebook.com/terje.roalkvam.54/
   - atelier: 1013
-    navn: null
-    web: null
+    navn: Eirik Senje
+    web: eiriksenje.no
+    social:
+      - link: https://www.instagram.com/eiriksenje/
+        type: instagram
   - atelier: 1014
     navn: null
     web: null
@@ -30,11 +47,16 @@ liste:
     navn: null
     web: null
   - atelier: 1016
-    navn: null
-    web: null
+    navn: Camilla Løw
+    web: www.camillalow.com
+    tlf: camillalow@gmail.com
   - atelier: 1017
-    navn: Sara Christensen
-    web: null
+    navn: Sara Korshøj Christensen
+    web: https://www.sarachristensen.net/
+    epost: sara.kors@gmail.com
+    social:
+      - type: instagram
+        link: https://www.instagram.com/sara_christensen
   - atelier: 1018
     navn: jeannette christensen
     web: null
@@ -72,8 +94,8 @@ liste:
     navn: null
     web: null
   - atelier: 2024
-    navn: null
-    web: null
+    navn: Mattias Härenstam
+    web: http://www.mattiasharenstam.com
   - atelier: 2025
     navn: null
     web: null
@@ -84,8 +106,10 @@ liste:
     navn: null
     web: null
   - atelier: 4007
-    navn: null
+    navn: Lotte Konow Lund
     web: null
+    tlf: +47 95757493
+    epost: lottekonowlund@gmail.com
   - atelier: 4008
     navn: null
     web: null
@@ -99,8 +123,13 @@ liste:
     navn: null
     web: null
   - atelier: 4016
-    navn: null
-    web: null
+    navn: Terje Nicolaisen
+    web: terjenicolaisen.com
+    tlf: "+4792041070"
+    epost: terjenicolaisen@gmail.com
+    social:
+      - link: https://www.youtube.com/@terjenicolaisen
+        type: youtube
   - atelier: 4017
     navn: null
     web: null
