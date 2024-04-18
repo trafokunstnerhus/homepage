@@ -1,5 +1,5 @@
 ---
-title: Artists with studios in the building
+title: Artists with studios at TRAFO
 type: kunstnere
 image: img/erosjon.jpg
 intro:
@@ -11,6 +11,6 @@ intro:
     floor.<br>[osloteatersenter.no](https://osloteatersenter.no/).
   blurbs: null
 main:
-  heading: Artists currently working at Trafo
+  heading: Artists currently working at TRAFO
   description: null
 ---
