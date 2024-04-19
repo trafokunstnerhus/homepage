@@ -97,8 +97,13 @@ liste:
     navn: null
     web: null
   - atelier: 2019
-    navn: null
-    web: null
+    navn: Brynhild Slaatto
+    web: brynhildslaatto.no
+    tlf: +47 950 83 568
+    epost: slaattobrynhild@gmail.com
+    social:
+      - type: instagram
+        link: instagram.com/brynhildslaatto
   - atelier: 2020
     navn: null
     web: null
