@@ -51,8 +51,12 @@ liste:
       - link: https://instagram.com/eiriksenje/
         type: instagram
   - atelier: 1014
-    navn: null
-    web: null
+    navn: Josefine Lyche
+    web: josefinelyche.com
+    epost: josefinelyche@gmail.com
+    social:
+      - type: instagram
+        link: https://instagram.com/josefinelyche
   - atelier: 1015
     navn: null
     web: null
@@ -154,8 +158,10 @@ liste:
     navn: Øystein Wyller Odden
     web: wyllerodden.com
   - atelier: 4022
-    navn: null
-    web: null
+    navn: Sigrid Øyrehagen
+    web: oyrehagen.no
+    tlf: +47 992 59 425
+    epost: sigrioey@online.no
   - atelier: 5006
     navn: null
     web: null
