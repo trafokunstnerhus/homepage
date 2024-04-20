@@ -9,7 +9,7 @@ liste:
   - atelier: 1004
     navn: Marit Følstad
     web: https://folstad.net
-    tlf: +47 962 31 615
+    tlf: ""
     epost: maritfolstad@hotmail.com
     social:
       - link: https://www.instagram.com/maritfoelstad/
@@ -167,9 +167,14 @@ liste:
     web: oyrehagen.no
     tlf: +47 992 59 425
     epost: sigrioey@online.no
-  - atelier: 5006
-    navn: null
-    web: null
+  - atelier: 5001
+    navn: Ragnhild Monsen
+    web: ragnhild-monsen.com
+    tlf: +47 918 27 447
+    epost: ragnhild.monsen@gmail.com
+    social:
+      - type: instagram
+        link: instagram.com/ragnhildmonsen10
   - atelier: 5007
     navn: null
     web: null
