@@ -22,9 +22,6 @@ liste:
     navn: Else Marie Hagen
     web: gallerik.com/artists/else-marie-hagen
     epost: elsemha@online.no
-  - atelier: 1006
-    navn: null
-    web: null
   - atelier: 1007
     navn: null
     web: null
@@ -175,9 +172,3 @@ liste:
     social:
       - type: instagram
         link: instagram.com/ragnhildmonsen10
-  - atelier: 5007
-    navn: null
-    web: null
-  - atelier: 5008
-    navn: null
-    web: null
