@@ -1,5 +1,12 @@
 liste:
   - atelier: 1001
+    navn: Elin Aasheim
+    tlf: +47 930 08 954
+    epost: elinaas@yahoo.com
+    social:
+      - type: instagram
+        link: instagram.com/elinaasheimart
+  - atelier: 1001
     navn: Christina Peel
     web: christinapeel.com
     epost: christinapeel@gmail.com
