@@ -95,8 +95,16 @@ liste:
     navn: null
     web: null
   - atelier: 2010
-    navn: null
-    web: null
+    navn: Runa Boger
+    web: runaboger.no
+    tlf: +47 911 78 779
+    social:
+      - link: instagram.com/runaboger/
+        type: instagram
+      - type: facebook
+        link: facebook.com/runa.boger
+      - link: tekstallmenningen.no/butikk/boker/runa-boger-tekstilkunst/
+        type: globe
   - atelier: 2011
     navn: null
     web: null
@@ -138,8 +146,10 @@ liste:
     tlf: +47 957 57 493
     epost: lottekonowlund@gmail.com
   - atelier: 4008
-    navn: null
-    web: null
+    navn: Bjørg Holene
+    web: bjorg-holene.com
+    tlf: +47 924 37 434
+    epost: bjorg.holene@outlook.com
   - atelier: 4013
     navn: null
     web: null
