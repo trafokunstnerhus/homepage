@@ -80,8 +80,9 @@ liste:
       - type: instagram
         link: https://instagram.com/sara_christensen
   - atelier: 1018
-    navn: jeannette christensen
-    web: null
+    navn: " Jeannette Christensen"
+    web: jeannettechristensen.no
+    epost: jeachr@outlook.com
   - atelier: 1020
     navn: Kristoffer Myskja
     web: kristoffermyskja.com
