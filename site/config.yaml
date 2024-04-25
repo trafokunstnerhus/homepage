@@ -14,7 +14,7 @@ disableKinds:
   - taxonomyTerm
 params:
   images: img/
-  antallAtelier: "41"
+  antallAtelier: "37"
   styreMail: styret@trafokunstnerhus.no
 markup:
   goldmark:
