@@ -136,8 +136,13 @@ liste:
     navn: null
     web: null
   - atelier: 2035
-    navn: null
-    web: null
+    navn: Per Hess
+    web: perhess.com
+    tlf: +47 414 20 870
+    epost: per@perhess.com
+    social:
+      - type: instagram
+        link: instagram.com/perhess
   - atelier: 3023
     navn: null
     web: null
