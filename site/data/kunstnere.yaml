@@ -1,4 +1,12 @@
 liste:
+  - navn: Trude Westby Nordmark
+    atelier: 1001
+    web: trudewestby.com
+    tlf: +47 911 73 627
+    epost: trude@trudewestby.com
+    social:
+      - type: globe
+        link: norskekunsthandverkere.no/kunstnerregister/trude-westby-nordmark
   - atelier: 1001
     navn: Elin Aasheim
     tlf: +47 930 08 954
