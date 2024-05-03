@@ -171,8 +171,10 @@ liste:
     navn: null
     web: null
   - atelier: 4015
-    navn: null
-    web: null
+    navn: Øystein Wyller Odden
+    web: wyllerodden.com
+    tlf: +47 975 72 374
+    epost: oysteinwo@gmail.com
   - atelier: 4016
     navn: Terje Nicolaisen
     web: terjenicolaisen.com
@@ -187,9 +189,6 @@ liste:
   - atelier: 4018
     navn: null
     web: null
-  - atelier: 4021
-    navn: Øystein Wyller Odden
-    web: wyllerodden.com
   - atelier: 4022
     navn: Sigrid Øyrehagen
     web: oyrehagen.no
