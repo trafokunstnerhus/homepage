@@ -38,13 +38,13 @@ liste:
     web: gallerik.com/artists/else-marie-hagen
     epost: elsemha@online.no
   - atelier: 1007
-    navn: null
+    navn: Ahmed Umar
     web: null
   - atelier: 1010
-    navn: null
+    navn: Christine Aspelund
     web: null
   - atelier: 1011
-    navn: null
+    navn: Marit Krogh
     web: null
   - atelier: 1012
     navn: Terje Roalkvam
@@ -63,14 +63,12 @@ liste:
       - link: https://instagram.com/eiriksenje/
         type: instagram
   - atelier: 1014
-    navn: Josefine Lyche
-    web: josefinelyche.com
-    epost: josefinelyche@gmail.com
-    social:
-      - type: instagram
-        link: https://instagram.com/josefinelyche
+    navn: Shwan Queradaki
+    web: ""
+    epost: ""
+    social: []
   - atelier: 1015
-    navn: null
+    navn: Børre Sæthre
     web: null
   - atelier: 1016
     navn: Camilla Løw
@@ -157,7 +155,7 @@ liste:
       - type: instagram
         link: instagram.com/perhess
   - atelier: 3023
-    navn: null
+    navn: Eline Mugaas
     web: null
   - atelier: 4007
     navn: Lotte Konow Lund
@@ -170,10 +168,10 @@ liste:
     tlf: +47 924 37 434
     epost: bjorg.holene@outlook.com
   - atelier: 4013
-    navn: null
+    navn: Liv Bugge
     web: null
   - atelier: 4014
-    navn: null
+    navn: Vibeke Tandberg
     web: null
   - atelier: 4015
     navn: Øystein Wyller Odden
@@ -189,11 +187,13 @@ liste:
       - link: https://youtube.com/@terjenicolaisen
         type: youtube
   - atelier: 4017
-    navn: null
+    navn: Hanne Sletten
     web: null
   - atelier: 4018
-    navn: null
+    navn: Eva Skaar
     web: null
+  - atelier: 4021
+    navn: Kathleen Lotherington
   - atelier: 4022
     navn: Sigrid Øyrehagen
     web: oyrehagen.no
