@@ -126,8 +126,13 @@ liste:
       - type: instagram
         link: instagram.com/brynhildslaatto
   - atelier: 2020
-    navn: null
-    web: null
+    navn: Ane Hjort Guttu
+    web: anehjortguttu.net
+    tlf: "+4799258097"
+    epost: ane@anehjortguttu.net
+    social:
+      - type: instagram
+        link: instagram.com/anehjortguttu
   - atelier: 2021
     navn: null
     web: null
